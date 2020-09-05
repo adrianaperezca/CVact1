@@ -1,1 +1,2 @@
-This document was created inside the repo. 
+This document was created inside the repo.
+This line was added from the branch BranchBS
