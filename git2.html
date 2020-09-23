@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Git 2 Formulario</title>
+    <script src="https://kit.fontawesome.com/cff03cb1c3.js" crossorigin="anonymous"></script>
+    <style>
+        lable{
+            font-family: sans-serif;
+            padding: 0;
+            font-size: 15px;
+            margin: auto;
+            color: rgba(159, 0, 79, 0.96);
+        }
+        legend{
+            font-family: sans-serif;
+            font-size: 20px; 
+            font-weight: bold;
+            color: rgba(159, 0, 79, 0.96);
+        }
+        .titulo {
+            padding: 10px;
+            margin: 0;
+            font-family:sans-serif;
+            font-size: 30px;
+            text-align: center;
+            color: rgba(136, 43, 159, 0.96);
+        }
+        p {
+            padding-bottom:15px;
+            margin: 0;
+            font-family:sans-serif;
+            font-size: 25px;
+            text-align: center;
+            color: rgba(136, 43, 159, 0.96);
+        }
+        .bg-1{
+            background-color: rgba(75, 255, 255, 0.6);
+        }
+        .bg-2{
+            background-color: rgba(229, 121, 220, 0.62);
+        }
+        .bg-2 legend lable{
+            color: aliceblue;
+        }
+        .redes-sociales a {
+            background-color: transparent;
+            width: 40px;
+            height: 40px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        }
+        .redes-sociales a i {
+            color: rgba(159, 0, 79, 0.76);
+            font-size: 45px;
+        }
+        .contenedor {
+            width: 1100px;
+            margin: 0 auto;
+        }
+        .flex {
+            display: flex;
+            padding-bottom: 10px;
+        }
+        .flex fieldset {
+            width: 33.33333%;
+            text-align: center;
+            padding: 0 15px;
+        }
+        .btn {
+            background-color: transparent; 
+            border: 2px solid rgba(159, 0, 79, 0.76); 
+            padding: 8px 20px; 
+            border-radius: 5px; 
+            color: #ffffff; 
+            margin: 5px; 
+            font-size: 20px
+        }
+        
+    </style>
+</head>
+<body style="padding: 0; margin: 0;">
+    <div class="bg-1">
+        <h1 class="titulo">Actividad 2</h1>
+        <p>Llena el formulario que se presenta a continuación</p>
+        <img style="display: block; margin-left: auto; margin-right: auto; padding-bottom:15px; width: 25%; height: 25%" src="https://madridpress.com/upload/images/07_2019/7245_encuesta.png" alt="">
+    </div>
+    <div class="bg-2">
+        <form class="contenedor" method="get">
+        <fieldset style="text-align: center;">
+            <legend>Datos Personales</legend>
+            <lable for="nombre">Nombre: </lable>
+            <input name="NOM" id="nombre" type="text">
+            <input name="DATE" id="fecha" type="date">
+            <input name="PASS" id="contra" type="password">
+            <input name="EMAIL" id="mail" type="email">
+            <input class="btn" type="submit" value="Send">
+        </fieldset>
+        <br>
+        <hr>
+        <br>
+        <div class="flex">
+            <fieldset class="contenedor">
+                <legend>numeros pares</legend>
+                <lable>2</lable>
+                <input type="radio">
+                <lable>3</lable>
+                <input type="radio">
+                <lable>4</lable>
+                <input type="radio">
+                <lable>5</lable>
+                <input type="radio">
+            </fieldset>
+            <fieldset class="contenedor">
+                <legend>numero primo</legend>
+                <lable>8</lable>
+                <input name="res" type="radio" value="8">
+                <lable>7</lable>
+                <input name="res" type="radio" value="7">
+                <lable>10</lable>
+                <input name="res" type="radio" value="10">
+                <lable>15</lable>
+                <input name="res" type="radio" Value="15">
+                <input class="btn" type="submit" value="Send">
+            </fieldset>
+        </div>
+    </form> 
+    </div>
+    <footer class="bg-1" style="padding: 30px 0">
+        <div class="contenedor" style="display: flex; align-items: center">
+            <div class="redes-sociales" style="width: 40%; text-align: center">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="https://twitter.com/home" target="_blank">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+                <a href="https://www.google.com/" target="_blank">
+                    <i class="fab fa-google-plus-square"></i>
+                </a>
+                <a href="https://mx.linkedin.com/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>    
+        </div>
+    </footer>
+</body>
+</html>
